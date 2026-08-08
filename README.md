@@ -13,13 +13,13 @@
 ## 2. Introduction
 
 ### Overview of Laravel
-Laravel is an open-source PHP web framework engineered to streamline modern web application development through an elegant, expressive syntax. Operating primarily on the Model-View-Controller (MVC) architectural pattern, Laravel handles routing, request processing, database abstraction, and view rendering out of the box, allowing developers to build scalable enterprise solutions efficiently.
+Laravel is a robust, open-source framework built for PHP that simplifies backend web development through modern architectural patterns. By leveraging the Model-View-Controller (MVC) design pattern, it abstracts complex low-level operations—such as request routing, database connectivity, and dynamic page rendering—into intuitive, readable components. This allows developers to build maintainable, full-stack web applications without reinventing core infrastructure.
 
 ### Importance of Client-Server Technologies
-Client-server architecture is the structural backbone of modern web computing. In this model, the client (browser) sends HTTP requests across a network, while the server processes business logic, interacts with database layers, and returns appropriate HTTP responses. Understanding how to configure server-side runtime environments and manage local databases is essential for developing robust backend systems.
+Modern web applications rely on client-server architecture to separate user interaction from backend logic. In this model, the client interface (the web browser) submits requests over a network, while the backend server processes business logic, executes database operations, and delivers the appropriate response back to the client. Gaining hands-on experience with configuring local web runtimes and database servers provides essential insight into how distributed software systems operate in real-world deployments.
 
 ### Purpose of the Project
-This project was completed for the ITST 302 Client-Server Technologies laboratory assignment. The objective is to construct, verify, and document a fully functional local development environment. This includes configuring PHP, Composer, Laravel CLI, Git, and MySQL, running the local Artisan development server, customizing a dynamic Blade template, and managing code history through Git and GitHub.
+Developed as part of the ITST 302 Client-Server Technologies curriculum, this activity focuses on establishing and validating a complete local backend environment. The objective is to assemble a working development stack consisting of PHP, Composer, the Laravel CLI, MySQL, and Git. The workflow involves initializing a fresh Laravel instance, launching the Artisan development server, modifying Blade views to serve customized content, and tracking all setup stages across a public Git repository.
 
 ---
 
@@ -239,11 +239,11 @@ Laravel follows a structured directory layout where each folder plays a distinct
 
 ## 10. Reflection
 
-Setting up a complete development environment provided valuable insights into how server-side frameworks operate behind the scenes. Before writing any code, ensuring that all dependent software such as PHP runtimes, package managers, database systems, and version control tools—are harmonized is a vital step in real-world software engineering.
+Setting up a complete development environment provided valuable insights into how server-side frameworks operate behind the scenes. Before writing any code, ensuring that all dependent software such as PHP runtimes, package managers, database systems, and version control tools are harmonized is a vital step in real-world software engineering.
 
 One major takeaway from this activity was understanding how tool suites like Laravel Herd Lite handle environment variables. Herd Lite simplifies local setup by managing PHP binaries and Composer paths automatically. Additionally, resolving the terminal PATH issues with MySQL highlighted the importance of system configurations and showed how terminal sessions load environment states upon launch.
 
-Gaining familiarity with Laravel's directory hierarchy—specifically how routes in `routes/web.php` map to Blade views in `resources/views/` helped clarify the mechanics of client-server request handling. Learning to track these incremental setup steps using professional Git commit practices reinforced the importance of maintainable code documentation. These foundational concepts will serve as a strong basis for upcoming enterprise web development tasks and database integrations.
+Gaining familiarity with Laravel's directory hierarchy specifically how routes in `routes/web.php` map to Blade views in `resources/views/` helped clarify the mechanics of client-server request handling. Learning to track these incremental setup steps using professional Git commit practices reinforced the importance of maintainable code documentation. These foundational concepts will serve as a strong basis for upcoming enterprise web development tasks and database integrations.
 
 ---
 
