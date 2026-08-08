@@ -224,26 +224,26 @@ Laravel follows a structured directory layout where each folder plays a distinct
 
 ## 9. Screenshots Summary
 
-| Screenshot Asset | Description |
-| :--- | :--- |
-| `php-version.png` | Verifies PHP 8.4.0 CLI installation via Herd Lite. |
-| `composer-version.png` | Displays Composer 2.8.12 package manager setup. |
-| `laravel-version.png` | Displays global Laravel Installer version 5.27.0. |
-| `git-version.png` | Verifies Git 2.51.0 version control environment. |
-| `mysql-version.png` | Confirms MySQL 8.0.44 server installation. |
-| `vscode.png` | Shows project structure active in VS Code. |
-| `artisan-serve.png` | Demonstrates `php artisan serve` listening on port 8000. |
-| `hello-laravel-homepage.png` | Displays the final customized Blade homepage view. |
+| Screenshot Asset | Visual Preview | Description |
+| :--- | :---: | :--- |
+| **PHP Version** | ![PHP](screenshots/php-version.png) | Verifies PHP 8.4.0 CLI installation via Herd Lite. |
+| **Composer Version** | ![Composer](screenshots/composer-version.png) | Displays Composer 2.8.12 package manager setup. |
+| **Laravel Version** | ![Laravel](screenshots/laravel-version.png) | Displays global Laravel Installer version 5.27.0. |
+| **Git Version** | ![Git](screenshots/git-version.png) | Verifies Git 2.51.0 version control environment. |
+| **MySQL Version** | ![MySQL](screenshots/mysql-version.png) | Confirms MySQL 8.0.44 server installation. |
+| **VS Code Setup** | ![VS Code](screenshots/vscode.png) | Shows project structure active in VS Code. |
+| **Artisan Serve** | ![Artisan](screenshots/artisan-serve.png) | Demonstrates `php artisan serve` listening on port 8000. |
+| **Homepage** | ![Homepage](screenshots/hello-laravel-homepage.png) | Displays the final customized Blade homepage view. |
 
 ---
 
 ## 10. Reflection
 
-Setting up a complete development environment provided valuable insights into how server-side frameworks operate behind the scenes. Before writing any code, ensuring that all dependent software—such as PHP runtimes, package managers, database systems, and version control tools—are harmonized is a vital step in real-world software engineering.
+Setting up a complete development environment provided valuable insights into how server-side frameworks operate behind the scenes. Before writing any code, ensuring that all dependent software such as PHP runtimes, package managers, database systems, and version control tools—are harmonized is a vital step in real-world software engineering.
 
 One major takeaway from this activity was understanding how tool suites like Laravel Herd Lite handle environment variables. Herd Lite simplifies local setup by managing PHP binaries and Composer paths automatically. Additionally, resolving the terminal PATH issues with MySQL highlighted the importance of system configurations and showed how terminal sessions load environment states upon launch.
 
-Gaining familiarity with Laravel's directory hierarchy—specifically how routes in `routes/web.php` map to Blade views in `resources/views/`—helped clarify the mechanics of client-server request handling. Learning to track these incremental setup steps using professional Git commit practices reinforced the importance of maintainable code documentation. These foundational concepts will serve as a strong basis for upcoming enterprise web development tasks and database integrations.
+Gaining familiarity with Laravel's directory hierarchy—specifically how routes in `routes/web.php` map to Blade views in `resources/views/` helped clarify the mechanics of client-server request handling. Learning to track these incremental setup steps using professional Git commit practices reinforced the importance of maintainable code documentation. These foundational concepts will serve as a strong basis for upcoming enterprise web development tasks and database integrations.
 
 ---
 
