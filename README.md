@@ -13,7 +13,7 @@
 ## 2. Introduction
 
 ### Overview of Laravel
-Laravel is a robust, open-source framework built for PHP that simplifies backend web development through modern architectural patterns. By leveraging the Model-View-Controller (MVC) design pattern, it abstracts complex low-level operations—such as request routing, database connectivity, and dynamic page rendering—into intuitive, readable components. This allows developers to build maintainable, full-stack web applications without reinventing core infrastructure.
+Laravel is a robust, open-source framework built for PHP that simplifies backend web development through modern architectural patterns. By leveraging the Model-View-Controller (MVC) design pattern, it abstracts complex low-level operations such as request routing, database connectivity, and dynamic page rendering into intuitive, readable components. This allows developers to build maintainable, full-stack web applications without reinventing core infrastructure.
 
 ### Importance of Client-Server Technologies
 Modern web applications rely on client-server architecture to separate user interaction from backend logic. In this model, the client interface (the web browser) submits requests over a network, while the backend server processes business logic, executes database operations, and delivers the appropriate response back to the client. Gaining hands-on experience with configuring local web runtimes and database servers provides essential insight into how distributed software systems operate in real-world deployments.
